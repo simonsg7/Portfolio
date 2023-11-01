@@ -43,6 +43,7 @@ body > header > div {
 body > header > div > img {
     width: 2.3rem;
     border-radius: 50%;
+    margin-left: 1.5rem;
 }
 
 body > header > .ul-header {
@@ -280,4 +281,16 @@ footer {
 footer > .container-socialnetwork > .socialnetwork > a:hover {
     text-shadow: 0 0 0.4rem var(--fifth-color);
     color: var(--fifth-color);
+}
+
+footer > .change-color > .icon-sun:hover {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    font-size: 1.5rem;
+}
+
+footer > .container-button > .icon-up:hover {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    font-size: 1.5rem;
 }
